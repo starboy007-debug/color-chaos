@@ -30,5 +30,11 @@ public class player : MonoBehaviour
         {
             myBody.velocity = new Vector2(-moveSpeed, myBody.velocity.y);
         }
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            myBody.velocity = new Vector2(myBody.velocity.x, moveSpeed+4f);
+        }
+
     }
 }

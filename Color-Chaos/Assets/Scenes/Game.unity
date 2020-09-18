@@ -231,7 +231,7 @@ GameObject:
   m_Layer: 0
   m_Name: spawnner
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -257,7 +257,7 @@ MonoBehaviour:
     type: 3}
   gplatformPrefab: {fileID: 5063071196118695530, guid: 4423fc3630e673d49921b820684a2f01,
     type: 3}
-  platform_Spawn_Timer: 1.8
+  platform_Spawn_Timer: 1.7
   min_X: -2
   max_X: 2
 --- !u!4 &229218913
@@ -423,6 +423,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2552540098286150870, guid: 0bf1bed368be54b4c8258be24025b408,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: cd959dac94104414fb21dc6549a6b9ee, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf1bed368be54b4c8258be24025b408, type: 3}
 --- !u!1001 &3259742364667423190

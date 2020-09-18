@@ -48,8 +48,8 @@ public class platform : MonoBehaviour
             {
 
                 target.transform.position = new Vector2(1000f, 1000f);
-             //   SoundManager.instance.GameOverSound();
-             //   GameManager.instance.RestartGame();
+                SoundManager.instance.GameOverSound();
+                GameManager.instance.RestartGame();
 
             }
 

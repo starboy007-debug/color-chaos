@@ -33,8 +33,8 @@ public class Player_bound : MonoBehaviour
 
                 out_Of_Bounds = true;
 
-               // SoundManager.instance.DeathSound();
-               // GameManager.instance.RestartGame();
+                SoundManager.instance.DeathSound();
+                GameManager.instance.RestartGame();
 
             }
 
@@ -49,8 +49,8 @@ public class Player_bound : MonoBehaviour
         {
 
             transform.position = new Vector2(1000f, 1000f);
-         //   SoundManager.instance.DeathSound();
-         //   GameManager.instance.RestartGame();
+            SoundManager.instance.DeathSound();
+            GameManager.instance.RestartGame();
 
         }
 

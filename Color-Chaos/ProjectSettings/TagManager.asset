@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - coin
+  - Spike
+  - TopSpike
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - BG
   - 
   - 
   - 
@@ -51,6 +53,6 @@ TagManager:
   - name: item
     uniqueID: 306363611
     locked: 0
-  - name: ui
+  - name: UI
     uniqueID: 2919383857
     locked: 0

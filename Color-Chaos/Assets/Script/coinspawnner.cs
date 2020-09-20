@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class coinspawnner : MonoBehaviour
 {
-    public GameObject coin;
+    public GameObject[] coin;
     public GameObject colorcoin;
     public float xPositionLimit;
     public float spawnRate;
@@ -28,7 +28,7 @@ public class coinspawnner : MonoBehaviour
         Vector2 spawnPosition = new Vector2(randomX, transform.position.y);
         if (Random.Range(0, 2) > 0)
         {
-            Instantiate(coin, spawnPosition, Quaternion.identity);
+            Instantiate(coin[Random.Range(0,coin.Length)], spawnPosition, Quaternion.identity);
         }
 
         else

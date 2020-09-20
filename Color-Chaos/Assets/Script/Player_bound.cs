@@ -1,12 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player_bound : MonoBehaviour
 {
     public float min_X = -2.5f, max_X = 2.5f, min_Y = -5.6f;
     private bool out_Of_Bounds;
-
+    private Text scoreText;
+    private int score = 0;
+    private void Awake()
+    {
+        scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
+        scoreText.text = "0";
+    }
     void Update()
     {
         CheckBounds();
@@ -32,7 +39,8 @@ public class Player_bound : MonoBehaviour
             {
 
                 out_Of_Bounds = true;
-
+                if (PlayerPrefs.GetFloat("HighScore") < score)
+                    PlayerPrefs.SetFloat("HighScore", score);
                 SoundManager.instance.DeathSound();
                 GameManager.instance.RestartGame();
 
@@ -49,10 +57,21 @@ public class Player_bound : MonoBehaviour
         {
 
             transform.position = new Vector2(1000f, 1000f);
+            if (PlayerPrefs.GetFloat("HighScore") < score)
+                PlayerPrefs.SetFloat("HighScore", score);
             SoundManager.instance.DeathSound();
             GameManager.instance.RestartGame();
 
         }
+
+        if (target.tag == "coin")
+        {
+            score++;
+            scoreText.text = score.ToString();
+            
+            target.gameObject.SetActive(false);
+        }
+
 
     }
 }

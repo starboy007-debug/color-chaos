@@ -73,5 +73,14 @@ public class Player_bound : MonoBehaviour
         }
 
 
+        if (target.tag == "ColorChanger")
+        {
+            score = score + 4;
+            scoreText.text = score.ToString();
+
+            target.gameObject.SetActive(false);
+        }
+
+
     }
 }

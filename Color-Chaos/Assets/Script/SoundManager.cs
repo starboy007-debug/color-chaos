@@ -36,4 +36,8 @@ public class SoundManager : MonoBehaviour
         soundFX.clip = gameOverClip;
         soundFX.Play();
     }
+
+  
+
+
 }

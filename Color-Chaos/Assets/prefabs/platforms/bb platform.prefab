@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1129945436838371693}
   m_Layer: 0
   m_Name: bb platform
-  m_TagString: Untagged
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

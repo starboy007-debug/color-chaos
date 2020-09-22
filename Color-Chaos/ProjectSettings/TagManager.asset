@@ -7,6 +7,13 @@ TagManager:
   - coin
   - Spike
   - TopSpike
+  - ColorChanger
+  - Black
+  - Red
+  - Blue
+  - Green
+  - Yellow
+  - Purple
   layers:
   - Default
   - TransparentFX

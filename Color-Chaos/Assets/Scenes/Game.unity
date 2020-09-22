@@ -1171,7 +1171,7 @@ MonoBehaviour:
   - {fileID: 3215328351212786398, guid: 64527c2e64922884090ddbc70c809ec2, type: 3}
   - {fileID: 2287746697015956602, guid: 2833523a6e01cfe47af09e0d9a3f1e33, type: 3}
   - {fileID: 5433272497095412296, guid: e40f50c7c7c3bca4c88d367611c6c305, type: 3}
-  colorcoin: {fileID: 3215328351212786398, guid: 64527c2e64922884090ddbc70c809ec2,
+  colorcoin: {fileID: 2983679406331624788, guid: e581627d4f847fc43b088f304fef0d36,
     type: 3}
   xPositionLimit: 2.7
   spawnRate: 2

@@ -64,7 +64,7 @@ public class player : MonoBehaviour
         {
             if (sr.sprite != b)
             {
-                Debug.Log("GAME OVER!");
+               // Debug.Log("GAME OVER!");
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
            

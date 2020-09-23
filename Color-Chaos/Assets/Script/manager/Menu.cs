@@ -34,4 +34,10 @@ public class Menu : MonoBehaviour
         panel.SetActive(false);
     }
 
+    public void exit()
+    {
+        Application.Quit();
+
+    }
+
 }

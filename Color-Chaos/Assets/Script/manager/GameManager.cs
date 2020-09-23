@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
-        Invoke("RestarteAfterTime", 2f);
+        Invoke("RestarteAfterTime", 1f);
     }
 
     void RestarteAfterTime()

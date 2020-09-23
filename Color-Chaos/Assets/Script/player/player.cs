@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO.Compression;
-using UnityEditor.Experimental.U2D;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class player : MonoBehaviour
+public class Player : MonoBehaviour
 {
     private Rigidbody2D myBody;
 
@@ -64,7 +64,6 @@ public class player : MonoBehaviour
         {
             if (sr.sprite != b)
             {
-               // Debug.Log("GAME OVER!");
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
            

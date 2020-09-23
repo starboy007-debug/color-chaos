@@ -206,7 +206,7 @@ Transform:
   m_GameObject: {fileID: 171563289}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 10}
-  m_LocalScale: {x: 6, y: 10, z: 1}
+  m_LocalScale: {x: 7.5, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -285,14 +285,14 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 48
+    m_MaxSize: 54
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'X '
+  m_Text: X
 --- !u!222 &197230485
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -341,8 +341,8 @@ MonoBehaviour:
   gplatformPrefab: {fileID: 5063071196118695530, guid: 4423fc3630e673d49921b820684a2f01,
     type: 3}
   platform_Spawn_Timer: 1.7
-  min_X: -2
-  max_X: 2
+  min_X: -2.7
+  max_X: 2.7
 --- !u!4 &229218913
 Transform:
   m_ObjectHideFlags: 0
@@ -926,7 +926,7 @@ MonoBehaviour:
   - {fileID: 5433272497095412296, guid: e40f50c7c7c3bca4c88d367611c6c305, type: 3}
   colorcoin: {fileID: 2983679406331624788, guid: e581627d4f847fc43b088f304fef0d36,
     type: 3}
-  xPositionLimit: 2.7
+  xPositionLimit: 3.1
   spawnRate: 2
 --- !u!4 &1576722630
 Transform:
@@ -1099,12 +1099,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ca534ffd70e590042a59972dfb1ccc67, type: 3}
-    m_FontSize: 43
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 45
-    m_Alignment: 4
+    m_MinSize: 0
+    m_MaxSize: 109
+    m_Alignment: 7
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1341,15 +1341,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: e1e0c9dbd3510d7459a6292709aeafb8,
         type: 3}
+    - target: {fileID: 1824246163641162660, guid: 37de9ca268c3eed40b39a1086b5ceb21,
+        type: 3}
+      propertyPath: min_X
+      value: -3.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824246163641162660, guid: 37de9ca268c3eed40b39a1086b5ceb21,
+        type: 3}
+      propertyPath: max_X
+      value: 3.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1824246163641162661, guid: 37de9ca268c3eed40b39a1086b5ceb21,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2
+      value: -1.52
       objectReference: {fileID: 0}
     - target: {fileID: 1824246163641162661, guid: 37de9ca268c3eed40b39a1086b5ceb21,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.21
+      value: -2.43
       objectReference: {fileID: 0}
     - target: {fileID: 1824246163641162661, guid: 37de9ca268c3eed40b39a1086b5ceb21,
         type: 3}
@@ -1418,7 +1428,7 @@ PrefabInstance:
     - target: {fileID: 3259742364386954085, guid: 2de0e6854b148664d8467a714712c321,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.23
+      value: -1.64
       objectReference: {fileID: 0}
     - target: {fileID: 3259742364386954085, guid: 2de0e6854b148664d8467a714712c321,
         type: 3}

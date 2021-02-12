@@ -327,7 +327,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 653ea22a0b687f44bb1409fab84d82f2, type: 2}
+  - {fileID: 2100000, guid: f558b3ed83b3a0f47a13b61f653445c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -499,8 +499,8 @@ MonoBehaviour:
   gplatformPrefab: {fileID: 5063071196118695530, guid: 4423fc3630e673d49921b820684a2f01,
     type: 3}
   platform_Spawn_Timer: 1.7
-  min_X: -2.7
-  max_X: 2.7
+  min_X: -2.1
+  max_X: 2.1
 --- !u!4 &229218913
 Transform:
   m_ObjectHideFlags: 0
@@ -509,7 +509,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229218911}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -6.03, z: 0.005156193}
+  m_LocalPosition: {x: 0, y: -6.69, z: 0.005156193}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1784,8 +1784,8 @@ MonoBehaviour:
   - {fileID: 5433272497095412296, guid: e40f50c7c7c3bca4c88d367611c6c305, type: 3}
   colorcoin: {fileID: 2983679406331624788, guid: e581627d4f847fc43b088f304fef0d36,
     type: 3}
-  xPositionLimit: 3.4
-  spawnRate: 2
+  xPositionLimit: 2.8
+  spawnRate: 1.75
 --- !u!4 &1576722630
 Transform:
   m_ObjectHideFlags: 0
@@ -1794,7 +1794,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1576722628}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.15, y: 6.2, z: 10.03241}
+  m_LocalPosition: {x: 0.15, y: 6.81, z: 10.03241}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2281,17 +2281,17 @@ PrefabInstance:
     - target: {fileID: 1824246163641162660, guid: 37de9ca268c3eed40b39a1086b5ceb21,
         type: 3}
       propertyPath: min_X
-      value: -3.1
+      value: -2.6
       objectReference: {fileID: 0}
     - target: {fileID: 1824246163641162660, guid: 37de9ca268c3eed40b39a1086b5ceb21,
         type: 3}
       propertyPath: max_X
-      value: 3.1
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 1824246163641162661, guid: 37de9ca268c3eed40b39a1086b5ceb21,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.21
+      value: -2.17
       objectReference: {fileID: 0}
     - target: {fileID: 1824246163641162661, guid: 37de9ca268c3eed40b39a1086b5ceb21,
         type: 3}
@@ -2365,7 +2365,7 @@ PrefabInstance:
     - target: {fileID: 3259742364386954085, guid: 2de0e6854b148664d8467a714712c321,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.9
+      value: -2.03
       objectReference: {fileID: 0}
     - target: {fileID: 3259742364386954085, guid: 2de0e6854b148664d8467a714712c321,
         type: 3}

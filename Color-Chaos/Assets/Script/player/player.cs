@@ -44,6 +44,15 @@ public class Player : MonoBehaviour
         {
             myBody.velocity = new Vector2(myBody.velocity.x, moveSpeed+3f);
         }
+        if (Input.GetMouseButtonDown(0))
+        {
+            if ((Input.mousePosition.x > Screen.width / 2) && (Input.mousePosition.y < Screen.height / 2))
+                myBody.velocity = new Vector2(moveSpeed+1, myBody.velocity.y);
+            if ((Input.mousePosition.x < Screen.width / 2) && (Input.mousePosition.y < Screen.height / 2))
+                myBody.velocity = new Vector2(-moveSpeed-1, myBody.velocity.y);
+            if (Input.mousePosition.y > Screen.height / 2)
+                myBody.velocity = new Vector2(myBody.velocity.x, moveSpeed + 4f);
+        }
 
     }
 
